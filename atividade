@@ -1,0 +1,9 @@
+Nao usei chat gpt porem usei sites do google para pegar comandos e aprender sobre 
+
+function EstaVazio(string) {
+    return string.trim() === "";
+}
+
+console.log(EstaVazio(""));       // true
+console.log(EstaVazio("   "));    // true
+console.log(EstaVazio("Hello"));  // false
